@@ -26,7 +26,7 @@ module.exports = function (app) {
         'ows_onlineresource': 'http://localhost:5500/ows',
         'ows_srs': 'EPSG:4326 EPSG:4269 EPSG:3978 EPSG:3857 EPSG:4674 EPSG:900913',
         'wcs_srs': 'EPSG:4326 EPSG:4269 EPSG:3978 EPSG:3857 EPSG:4674 EPSG:900913',
-        'ows_title': 'LAPIG-OWS',
+        'ows_title': 'CEMPA-OWS',
         'wms_getmap_formatlist': 'image/png,application/json,pdf',
         'wfs_getfeature_formatlist': 'CSV,GML,SHAPE-ZIP,application/json,GEOPACKAGE,geojson,SQLITE-ZIP',
         'wms_getfeatureinfo_formatlist': 'gml,application/json',
