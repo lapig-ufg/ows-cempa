@@ -75,7 +75,7 @@
                             echo response
 
                             url = "http://$SERVER_HOMOL/containers/create?name=$application_name"
-                            response = sh(script: "curl -v -X POST -H 'Content-Type: application/json' -d @container-agrotoxico-deploy-homol.json  -s $url", returnStdout: true).trim()
+                            response = sh(script: "curl -v -X POST -H 'Content-Type: application/json' -d @container-ows-cempa-deploy-homol.json  -s $url", returnStdout: true).trim()
                             echo response
                         }
     
