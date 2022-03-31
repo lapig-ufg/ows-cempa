@@ -36,7 +36,7 @@ module.exports = function (app) {
         'read_mapfile_with_sld': appRoot + '/utils/integration/py/read_mapfile_with_sld.py',
         'path_enhance_img': appRoot + '/utils/integration/py/enhance_img_clahe.py',
         'cacheDir': '/STORAGE/ows-cache/layers',
-        'cachePrefix': "pastagem.org",
+        'cachePrefix': "cempa.ufg.br",
         'cacheEnable': false,
         'vectorBaseExt': 'shp',
         'vectorDownloadExts': ['.shp', '.shx', '.dbf', '.prj', '.sld'],
