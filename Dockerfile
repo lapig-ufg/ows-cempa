@@ -2,7 +2,7 @@ FROM registry.lapig.iesa.ufg.br/lapig-images-homol/ows-base:base
 
 # Clone app and npm install on server
 ENV URL_TO_APPLICATION_GITHUB="https://github.com/lapig-ufg/ows-cempa.git"
-ENV BRANCH="develop"
+ENV BRANCH="main"
 
 LABEL maintainer="Renato Gomes <renatogomessilverio@gmail.com>"
 
