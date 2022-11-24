@@ -9,6 +9,9 @@ lerna-debug.log*
 src/server/download_plataform
 src/server/downloads
 
+*.Jenkinsfile
+*.Dockerfile
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
